@@ -5,7 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 # Here Chrome  will be used
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome('/Users/rafaelgomes/Downloads/chromedriver 4')
+driver = webdriver.Chrome(input("filepath tp your chrome driver")
 
 url ='https://www.instagram.com/'
 
